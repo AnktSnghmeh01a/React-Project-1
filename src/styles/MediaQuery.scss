@@ -1,0 +1,126 @@
+// Media queries.....
+
+@media screen and (max-width: 680px){
+  // Styling the header
+*{
+  overflow-x: hidden;
+}
+
+nav{
+  height: 10vh;
+
+
+  >h1{
+    display: none;
+  }
+  >main{
+    width: 100%;
+    justify-content: space-around;
+    >a{
+      margin: 0.1em;
+    }
+  }
+ 
+}
+
+// page1
+
+
+.home{
+  height: 60vh;
+
+>main
+{
+  // align-items:flex-start;
+
+  >h1{
+    font-size: 3.5em;
+  }
+}
+
+}
+
+
+.home2{
+
+align-items: center;
+justify-content: center;
+padding: 5vw 0;
+
+  >img{
+  height: 20em;
+  width: 25em;
+ }
+ >div>p{
+  width: 100%;
+  padding: 5vw 3vw;
+ } 
+
+
+}
+
+
+// Styling about section
+
+#about{
+
+ justify-content: center;
+ align-items: center;
+  
+  >h1{
+    font-weight: 400;
+  }
+
+  >div{
+    >p{
+    width: 100%;
+      
+    }
+  }
+}
+
+// styling brands section
+
+.home3{
+  >h1{
+    margin-top: 2em;
+    // margin-bottom: 1em;
+    font-weight: 400;
+    font-size: 3em;
+  }
+  >article{
+    flex-direction: column;
+  }
+}
+
+// Styling contact us 
+
+.contactPage{
+
+
+  >div>form{
+    width: 30em;
+    height: 40em;
+    // align-items: center;
+    justify-content: center;
+  }
+
+}
+
+
+// styling footer
+.footer{
+  min-height: 10em;
+  gap: 1em;
+
+
+  >#footer-link{
+    gap: 1.4em;
+  }
+
+  >p{
+    font-size: 1.1em;
+  }
+}
+
+}
