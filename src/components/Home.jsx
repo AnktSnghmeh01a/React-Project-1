@@ -95,11 +95,11 @@ const Home = () => {
             <AiFillFacebook id="icon1"/>
           </a>
           {/* 2nd link */}
-          <a href="https://twitter.com/itzAnkitCodes01" target="_blank">
+          <a href="https://twitter.com/itzAnkitCodes01" target="_blank"  rel="noopener noreferrer">
             <AiFillTwitterCircle id="icon2"/>
           </a>
           {/* third link */}
-          <a href="https://www.linkedin.com/in/ankit-singh-mehra-03a211245/" target="_blank">
+          <a href="https://www.linkedin.com/in/ankit-singh-mehra-03a211245/" target="_blank"  rel="noopener noreferrer">
             <AiFillLinkedin id="icon3"/>
           </a>
           {/* 4 th link */}
